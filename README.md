@@ -18,5 +18,5 @@ This repository contains Playwright end-to-end tests that verify the complete sh
 To setup and run the tests locally:
 
 1. Clone the repository:
-   ```bash
+   ```bash 
   
