@@ -14,7 +14,7 @@ test.describe("Lambdatest Login", () => {
     await page.fill("input[name='search']", "HP LP3065");
   await page.press("input[name='search']", "Enter");
 
-  // Wait for search results to load
+
   await page.waitForLoadState("networkidle");
   const firstProduct = page.locator(".product-layout").first();
 
