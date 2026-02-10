@@ -1,16 +1,22 @@
-# Playwright End-to-End Tests – Full E-commerce Flow
+# Playwright LambdaTest Automation Tests
 
 ## Overview
-This repository contains Playwright end-to-end tests for verifying the complete shopping flow on [ecommerce-playground.lambdatest.io](https://ecommerce-playground.lambdatest.io).
+
+This repository contains Playwright end-to-end tests that verify the complete shopping flow on [ecommerce-playground.lambdatest.io](https://ecommerce-playground.lambdatest.io).
 
 ## Test Coverage
-- **User Registration**: Create a new account and verify success.
+
+- **User Registration**: Create a new account and verify successful registration.
 - **Login**: Sign in with registered credentials.
-- **Product Browsing**: Navigate categories and view product details.
-- **Cart Functionality**: Add multiple products, edit cart, delete items.
-- **Checkout Flow**: Proceed to checkout and verify page navigation.
+- **Product Browsing**: Navigate through product categories and view details.
+- **Cart Functionality**: Add a product to the cart.
+- **Checkout Flow**: Proceed through the checkout process.
+  - Uses test fixtures (`fixture`) for setup and reusability.
 
 ## Setup
-1. Install dependencies:
+
+To setup and run the tests locally:
+
+1. Clone the repository:
    ```bash
-   npm install
+  
